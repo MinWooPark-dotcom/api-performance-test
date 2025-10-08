@@ -1,0 +1,29 @@
+{
+  "name": "api-performance-test",
+  "version": "1.0.0",
+  "description": "OpenTelemetry 기반의 실시간 성능 관측 환경을 구축하고 Express API의 처리량 및 리소스 사용량을 시각화하기 위한 목적입니다. (Grafana Tempo + Loki + Prometheus를 통합 구성)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinWooPark-dotcom/api-performance-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MinWooPark-dotcom/api-performance-test/issues"
+  },
+  "homepage": "https://github.com/MinWooPark-dotcom/api-performance-test#readme",
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.1",
+    "nodemon": "^3.1.10"
+  }
+}
